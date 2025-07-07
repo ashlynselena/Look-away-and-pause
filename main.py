@@ -10,7 +10,7 @@ log.basicConfig(filename='webcam.log',level=log.INFO)
 
 
 
-cap = cv2.VideoCapture('College in 7 seconds.avi')
+cap = cv2.VideoCapture('fishies.mp4')
 
 #while(cap.isOpened()):
     
@@ -28,7 +28,7 @@ while True:
     if (ret2==False):
         break
 
-    cond=0;
+    cond=0
     while(cond==0):
         ret, frame = video_capture.read()
 
